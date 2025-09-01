@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#000000" />
+    <title>LOME VR</title>
+
+    <!-- Favicon / Iconos -->
+    <link rel="icon" type="image/png" href="/LM.png" />
+    <link rel="apple-touch-icon" href="/LM.png" />
+
+    <!-- Redes sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LOME VR">
+    <meta property="og:title" content="Alquiler de visores VR en CABA - LOME VR">
+    <meta property="og:description" content="Viví la realidad virtual: Quest 3/3s, juegos incluidos, entrega y retiro a domicilio.">
+    <meta property="og:url" content="https://tusitio.example/">
+    <meta property="og:image" content="/og.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alquiler de visores VR en CABA - LOME VR">
+    <meta name="twitter:description" content="Quest 3/3s, juegos incluidos, envío y retiro.">
+    <meta name="twitter:image" content="/og.jpg">
+
+    <!-- Fuente y estilos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Tema antes de cargar la página -->
+    <script>
+      try {
+        const saved = localStorage.getItem('lomevr-theme');
+        const system = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        const theme = saved || system;
+        document.documentElement.setAttribute('data-theme', theme);
+        document.addEventListener('DOMContentLoaded', () => {
+          document.body.setAttribute('data-theme', theme);
+        });
+      } catch {}
+    </script>
+
+    <!-- SEO Local JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RentalService",
+      "name": "LOME VR",
+      "image": "https://tusitio.example/og-image.jpg",
+      "url": "https://tusitio.example",
+      "telephone": "+54 9 11 5010-9307",
+      "address": { "@type": "PostalAddress", "addressLocality": "Palermo, CABA", "addressCountry": "AR" },
+      "areaServed": "CABA y GBA",
+      "priceRange": "$$",
+      "sameAs": ["https://www.instagram.com/lome.vr"]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

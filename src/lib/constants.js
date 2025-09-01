@@ -1,0 +1,23 @@
+// constantes fijas del sitio 
+export const GAMES = [
+  { key: 'beatsaber', name: 'Beat Saber', img: '/assets/BeatSaber.png', alt: 'Beat Saber',
+    desc: 'Juego de ritmo: cortá bloques al compás de la música con sables de luz. Ideal para entrar en calor y competir por puntajes.' },
+  { key: 'superhot', name: 'SUPERHOT VR', img: '/assets/SuperHot.png', alt: 'SUPERHOT VR',
+    desc: 'Acción táctica en primera persona: el tiempo solo avanza cuando te movés. Cada movimiento cuenta.' },
+  { key: 'aimxr', name: 'AIM XR', img: '/assets/AimXr.jpg', alt: 'AIM XR',
+    desc: 'Entrenamiento de puntería y reflejos en realidad virtual, con distintos modos y desafíos.' },
+  { key: 'gorillatag', name: 'Gorilla Tag', img: '/assets/GorillaTag.jpg', alt: 'Gorilla Tag',
+    desc: 'Movimiento con los brazos y parkour como gorila. Tag/Escondidas en mapas divertidos. Súper social.' },
+  { key: 'starvault', name: 'StarVault', img: '/assets/StarVault.jpg', alt: 'StarVault',
+    desc: 'Aventura espacial con exploración y acción arcade. Excelente para quienes aman el sci-fi.' },
+  { key: 'horizon', name: 'Horizon Worlds', img: '/assets/HorizonWorlds.jpg', alt: 'Horizon Worlds',
+    desc: 'Plataforma social de Meta: explorá mundos, minijuegos y eventos creados por la comunidad.' },
+  { key: 'pixeldungeon', name: 'Pixel Dungeon VR', img: '/assets/PixelDungeon.jpg', alt: 'Pixel Dungeon VR',
+    desc: 'Dungeon crawler con estética retro: explorá, saqueá y avanzá sala por sala en primera persona.' },
+  { key: 'hyperdash', name: 'Hyper Dash', img: '/assets/Hyperdash.jpg', alt: 'Hyper Dash',
+    desc: 'Shooter de arenas por equipos con “dash” y rieles. Rápido, competitivo y muy adictivo.' },
+  { key: 'vrchat', name: 'VRChat', img: '/assets/VrChat.jpg', alt: 'VRChat',
+    desc: 'El clásico social VR: miles de mundos, avatares y eventos. Perfecto para conocer gente y explorar.' },
+  { key: 'recroom', name: 'Rec Room', img: '/assets/RecRoom.jpg', alt: 'Rec Room',
+    desc: 'Otra gran plataforma social con minijuegos (paintball, cooperativos, escape rooms) y salas personalizadas.' },
+];
